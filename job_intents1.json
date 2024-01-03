@@ -1,0 +1,239 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Tempo", "My name is Tempo", "You can call me Tempo for short", "I am Tempo, my friends call me Tempo", "Tempo is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about South Africa", "I can give you interesting facts about South Africa"]
+      },
+      {
+      "tag": "happy",
+      "patterns": ["I'm happy", "Feeling great", "Having a good day"],
+      "responses": ["That's wonderful to hear! 😊", "Glad to hear you're happy!"]
+      },
+    {
+      "tag": "sad",
+      "patterns": ["I'm sad", "Feeling down", "Not doing well"],
+      "responses": ["I'm here for you. 😞", "I'm sorry to hear that. How can I help?"]
+    },
+    {
+      "tag": "angry",
+      "patterns": ["I'm angry", "Feeling frustrated", "Upset"],
+      "responses": ["Take a deep breath. I'm here to chat and help if I can. 😠", "I understand. Let's talk it out."]
+    },
+    {
+      "tag": "excited",
+      "patterns": ["I'm excited", "Feeling thrilled", "Full of energy"],
+      "responses": ["That's awesome! What's got you excited? 😃", "Excitement is contagious!"]
+    },
+    {
+      "tag": "neutral",
+      "patterns": ["I'm okay", "Feeling neutral", "Not much"],
+      "responses": ["Got it. If you ever want to chat or need assistance, I'm here. 😊", "Alright. Feel free to share anything on your mind."]
+    },
+    {
+      "tag": "confused",
+      "patterns": ["I'm confused", "Feeling lost", "Not sure what to do"],
+      "responses": ["It's okay to feel confused. Let's try to figure things out together. 😕", "I can help clarify things. What's on your mind?"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't quite catch that. Could you please rephrase or ask a different question?"]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+      "responses": ["Hi stranger! How can I assist you today?", "Yebo yes, how can I help?", "Ey watsupp! What's on your mind?", "Ekse Hoezit! Ready for a chat?", "Hola! What brings you here?", "Hey dude! What's up?", "You again! Ready for some conversation?"]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you", "How's it going", "How do you do", "How are you doing", "What's up"],
+      "responses": ["I'm just a computer program, so I don't have feelings, how was your day!", "I'm here and ready to assist you. How was your day?", "I don't experience emotions, but I'm here for you, how was your day:)"]
+    },
+    {
+      "tag": "user_feeling",
+      "patterns": ["How are you feeling", "How do you feel", "What's your mood", "Tell me your emotion", "How's your day"],
+      "responses": ["As a computer program, I don't have feelings, but I'm here to chat with you!", "I don't experience emotions, but I'm here to assist you. How can I help?", "No feelings here, but I'm ready for our conversation. What's on your mind?"]
+    },
+    {
+      "tag": "positive_sentiment",
+      "patterns": ["I'm feeling great", "This is awesome", "I love it", "Everything is going well", "I'm so happy"],
+      "responses": ["That's fantastic to hear! 😊", "I'm glad things are going well for you!"]
+    },
+    {
+      "tag": "negative_sentiment",
+      "patterns": ["I'm not happy", "This is frustrating", "I hate it", "Everything is going wrong", "I'm feeling down"],
+      "responses": ["I'm sorry to hear that. How can I help?", "I'm here for you. Let's talk about it."]
+    },
+    {
+      "tag": "neutral_sentiment",
+      "patterns": ["I don't have strong feelings", "I'm neutral about it", "It's okay", "I'm not sure", "I'm fine"],
+      "responses": ["Got it. If you ever want to talk or need assistance, I'm here.", "That's okay. Feel free to share anything on your mind."]
+    },
+    {
+      "tag": "expressing_happiness",
+      "patterns": ["I'm happy", "Feeling joyful", "Having a good day"],
+      "responses": ["That's wonderful to hear! 😃", "Glad to hear you're happy!"]
+    },
+    {
+      "tag": "expressing_sadness",
+      "patterns": ["I'm sad", "Feeling down", "Not doing well"],
+      "responses": ["I'm here for you. 😞", "I'm sorry to hear that. How can I help?"]
+    },
+    {
+      "tag": "expressing_frustration",
+      "patterns": ["I'm frustrated", "Feeling annoyed", "Upset"],
+      "responses": ["Take a deep breath. I'm here to chat and help if I can. 😠", "I understand. Let's talk it out."]
+    },
+    {
+      "tag": "expressing_neutrality",
+      "patterns": ["I'm okay", "Feeling neutral", "Not much"],
+      "responses": ["Got it. If you ever want to chat or need assistance, I'm here. 😊", "Alright. Feel free to share anything on your mind."]
+    },
+    {
+      "tag": "expressing_confusion",
+      "patterns": ["I'm confused", "Feeling lost", "Not sure what to do"],
+      "responses": ["It's okay to feel confused. Let's try to figure things out together. 😕", "I can help clarify things. What's on your mind?"]
+    },
+    {
+      "tag": "promotion_congratulations",
+      "patterns": ["I just got a promotion at work!"],
+      "responses": ["Congratulations on your promotion! 🎉 That's fantastic news! How are you feeling about it?"]
+    },
+    {
+      "tag": "best_places_in_paris",
+      "patterns": ["What are the best places to visit in Paris?"],
+      "responses": ["Paris is a beautiful city with so much to offer! You'll love exploring iconic landmarks like the Eiffel Tower and Louvre Museum. Is there anything specific you're excited to see or do?"]
+    },
+    {
+      "tag": "finished_writing_book",
+      "patterns": ["I finished writing my book today!"],
+      "responses": ["Wow, that's a huge accomplishment! 📚 Congratulations on completing your book! How do you feel about reaching this milestone?"]
+    },
+    {
+      "tag": "positive_app_feedback",
+      "patterns": ["I love using your app. It's so user-friendly!"],
+      "responses": ["Thank you for your kind words! 😊 We're thrilled to hear that you find our app user-friendly. Is there anything specific you appreciate about it?"]
+    },
+    {
+      "tag": "birthday_celebration",
+      "patterns": ["It's my birthday today!"],
+      "responses": ["Happy Birthday! 🎂🎉 Wishing you a day filled with joy, laughter, and special moments. How do you plan to celebrate?"]
+    },
+    {
+      "tag": "expressing_happiness",
+      "patterns": ["I'm so happy to be here!"],
+      "responses": ["We're delighted to have you here! 😃 What brings you so much happiness today?"]
+    },
+    {
+      "tag": "user_response_feeling",
+      "patterns": ["Thank you so much! ", "I'm honestly feeling ecstatic right now.", "I can't believe it finally happened!","I am feeling ecstatic"],
+      "responses": ["That's absolutely fantastic to hear! 🚀 Achieving a long-term goal is such a fulfilling experience. What steps did you take to reach this milestone, and do you have any advice for others aspiring to advance in their careers?"]
+    },
+    {
+      "tag": "user_advice_career",
+      "patterns": ["Well, I focused on continuous learning", "Stay dedicated, be open to learning, and never underestimate the power of a positive mindset.", "Positive mindset and embracing challenges were key for me."],
+      "responses": ["Excellent advice! 🌈 Your journey is truly inspiring. It's wonderful to hear about the positive strategies you employed. How do you plan to celebrate this achievement, and what new opportunities are you looking forward to in your elevated role?"]
+    },
+    {
+      "tag": "user_celebration_plan",
+      "patterns": ["I'm planning to celebrate with my friends and family this weekend!", "Celebrating with a get-together this weekend!", "A small party with loved ones is on the agenda!"],
+      "responses": ["That sounds like a fantastic celebration plan! 🎊 Your aspirations for the future are admirable, and I'm sure you'll excel in your expanded role. Wishing you continued success and fulfillment in your career journey!"]
+    },
+    {
+      "tag": "closing_wishes",
+      "patterns": ["Thank you! I appreciate your kind words.", "Thanks for the encouragement!", "Your support means a lot to me."],
+      "responses": ["You're very welcome! If there's anything else you'd like to share or discuss, feel free to let me know. Wishing you ongoing success and happiness! 😊"]
+    },
+    {
+      "tag": "feeling_defeated",
+      "patterns": [
+        "I feel like giving up.",
+        "Nothing I do seems to work.",
+        "I'm at my wit's end."
+      ],
+      "responses": [
+        "It's tough when it feels like you're not making progress. Sometimes taking a break or approaching things from a different angle might help.",
+        "Feeling defeated can be overwhelming. Is there a specific aspect you'd like to talk about or explore potential solutions?"
+      ]
+    },
+    {
+      "tag": "struggling_with_stress",
+      "patterns": [
+        "I'm so stressed out.",
+        "Everything is getting to me.",
+        "I can't handle this pressure anymore."
+      ],
+      "responses": [
+        "I understand, stress can be overwhelming. Have you tried any relaxation techniques or considered speaking with a professional for coping strategies?",
+        "When stress feels unbearable, it might be helpful to take small breaks or practice mindfulness to alleviate some pressure."
+      ]
+    },
+    {
+      "tag": "venting_frustration",
+      "patterns": [
+        "I need to vent.",
+        "I just want to scream.",
+        "This is so frustrating!"
+      ],
+      "responses": [
+        "I'm here to listen. Venting can sometimes lighten the load. What's been bothering you?",
+        "Sometimes letting it out can help. Feel free to express what's been frustrating you."
+      ]
+    },
+    {
+      "tag": "expressing_frustration",
+      "patterns": [
+        "I'm feeling really frustrated today.",
+        "Nothing seems to be going right.",
+        "I'm just exhausted and don't know what to do anymore."
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling frustrated. Is there anything specific that's been bothering you?",
+        "It sounds like you're having a tough time. Sometimes, taking a step back or talking to someone about it can help. Would you like to discuss what's been happening?"
+      ]
+    },
+    {
+      "tag": "feeling_overwhelmed",
+      "patterns": [
+        "I feel overwhelmed and underappreciated.",
+        "Work has been incredibly stressful lately.",
+        "I've tried, but it feels like no one listens."
+      ],
+      "responses": [
+        "I understand it's tough when work becomes overwhelming. Have you considered discussing this with your manager or HR?",
+        "Feeling undervalued at work can be draining. Maybe setting boundaries or having a conversation about workload could help."
+      ]
+    },
+    {
+      "tag": "relationship_issues",
+      "patterns": [
+        "My relationships are falling apart.",
+        "I just want things to get better.",
+        "It feels like nobody understands."
+      ],
+      "responses": [
+        "I'm sorry to hear that your relationships are going through a rough patch. It's important to remember that seeking support or counseling might offer new perspectives.",
+        "It can be challenging when it feels like others can't relate. Exploring different communication methods or seeking professional guidance might help." ]
+      }
+    ]
+}

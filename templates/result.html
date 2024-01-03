@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Chatbot Result</h1>
+        <p><strong>Final Emotion:</strong> {{ final_emotion }}</p>
+        <h2>Suggested Songs:</h2>
+        <ul>
+            {% for suggestion in music_suggestions %}
+            <li><a href="{{ suggestion.url }}" target="_blank">{{ suggestion.name }} by {{ suggestion.artist }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+
+</html>
