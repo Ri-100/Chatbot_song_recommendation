@@ -34,12 +34,19 @@ The Emotionally Aware Music Recommendation Chatbot is an AI-powered chatbot desi
 2. Install dependencies:
 ```bash  
 pip install -r requirements.txt  
-
+```
 3. Set up the Last.fm API:
-```bash  
  a Last.fm developer account.
 Obtain your API key and update the config.py file with your key.
 
-5.Run the Flask application:
-python app.py  
+4.Run the Flask application:
+```bash 
+python app.py
+```  
 Access the chatbot in your browser at http://localhost:5000.
+
+## Contact
+For any questions or feedback, please contact:
+Rishav Shukla
+📧 garghrishav@gmail.com
+
