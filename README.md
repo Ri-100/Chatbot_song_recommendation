@@ -32,10 +32,11 @@ The Emotionally Aware Music Recommendation Chatbot is an AI-powered chatbot desi
    git clone https://github.com/Ri-100/Chatbot_song_recommendation.git  
    cd Chatbot_song_recommendation  
 2. Install dependencies:
-
+```bash  
 pip install -r requirements.txt  
 
 3. Set up the Last.fm API:
+```bash  
  a Last.fm developer account.
 Obtain your API key and update the config.py file with your key.
 
